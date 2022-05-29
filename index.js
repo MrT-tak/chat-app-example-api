@@ -40,12 +40,12 @@ function consoleLogUserInfo(req, res, next) {
 //
 //    }
 //}
-
+/*
 function consoleInterface() {
     let command = Prompt('What program command would you like to run?');
     runProgramCommand(command);
 }
-
+*/
 function PORTChoosing() {
     if (process.env.PORT) {
         return process.env.PORT;
@@ -139,7 +139,7 @@ app.get('/ADMIN/', checkAccessibility('ADMIN', 'BLOCKED, You are not allowed to 
 //    return;
 //    
 //})
-
+/*
 function runProgramCommand(command) {
     if (command === 'clear') {
         console.clear();
@@ -182,4 +182,4 @@ function runProgramCommand(command) {
         console.log('Command not found');
     }
 }
- 
+ */
